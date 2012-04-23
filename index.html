@@ -1,0 +1,186 @@
+<html>
+<head>
+	<title>2004 MLB Baseball season</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+	<script src="https://raw.github.com/shutterstock/rickshaw/master/vendor/d3.min.js"></script>
+	<script src="https://raw.github.com/shutterstock/rickshaw/master/vendor/d3.layout.min.js"></script>
+	<script src="https://raw.github.com/shutterstock/rickshaw/master/rickshaw.min.js"></script>
+
+	<script src="js/custom.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://jsfiddle.net/css/normalize.css" />
+	<link rel="stylesheet" href="http://code.shutterstock.com/rickshaw/rickshaw.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+<div id="container">
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">American East</div>
+            <div class="graphic" id="ALE"></div>                    
+        </div>
+        <div class="stats">
+            <div class="textContainer first">
+                <span class="pos">+</span>
+                <span class="variance">40</span>
+                <span class="name">NY Yankees</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">101-24</span>
+            </div>
+            <div class="textContainer second">
+                <span class="pos">+</span>
+                <span class="variance">34</span>
+                <span class="name">Boston</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">10-24</span>
+            </div>
+            <div class="textContainer three blank"></div>
+            <div class="textContainer four blank"></div>
+            <div class="textContainer five">
+                <span class="pos">-</span>
+                <span class="variance">6</span>
+                <span class="name">Baltimore</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">10-24</span>     
+            </div>
+            <div class="textContainer six">
+                <span class="pos">-</span>
+                <span class="variance">22</span>
+                <span class="name">Tampa Bay</span>
+                <span class="pct">.417</span>
+                <span class="road">44-99</span>
+                <span class="home">24-57</span>
+                <span class="rec">15-84</span> 
+            </div>
+            <div class="textContainer seventh">
+                <span class="pos">-</span>
+                <span class="variance">34</span>
+                <span class="name">Toronto</span>
+                <span class="pct">.417</span>
+                <span class="road">44-99</span>
+                <span class="home">24-57</span>
+                <span class="rec">15-84</span> 
+            </div>          
+        </div>
+    </div>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">American Central</div>                
+        </div>
+        <div class="stats">
+            <div class="textContainer first">
+                <span class="pos">+</span>
+                <span class="variance">40</span>
+                <span class="name">NY Yankees</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">101-24</span>
+            </div>
+            <div class="textContainer second">
+                <span class="pos">+</span>
+                <span class="variance">34</span>
+                <span class="name">Boston</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">10-24</span>
+            </div>
+            <div class="textContainer three">
+                <span class="pos">-</span>
+                <span class="variance">22</span>
+                <span class="name">Tampa Bay</span>
+                <span class="pct">.417</span>
+                <span class="road">44-99</span>
+                <span class="home">24-57</span>
+                <span class="rec">15-84</span> 
+            </div>
+            <div class="textContainer four">
+            <span class="pos">-</span>
+                <span class="variance">6</span>
+                <span class="name">Baltimore</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">10-24</span>
+            </div>
+            <div class="textContainer five blank">
+                     
+            </div>
+            <div class="textContainer six blank">
+
+            </div>
+            <div class="textContainer seventh">
+                <span class="pos">-</span>
+                <span class="variance">34</span>
+                <span class="name">Toronto</span>
+                <span class="pct">.417</span>
+                <span class="road">44-99</span>
+                <span class="home">24-57</span>
+                <span class="rec">15-84</span> 
+            </div>          
+        </div>
+    </div>
+        <div class="tableContainer">
+        <div class="graph">
+            <div class="title">American West</div>                
+        </div>
+        <div class="stats">
+            <div class="textContainer first">
+                <span class="pos">+</span>
+                <span class="variance">40</span>
+                <span class="name">NY Yankees</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">101-24</span>
+            </div>
+            <div class="textContainer second">
+                <span class="pos">+</span>
+                <span class="variance">34</span>
+                <span class="name">Boston</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">10-24</span>
+            </div>
+            <div class="textContainer three">
+                <span class="pos">-</span>
+                <span class="variance">22</span>
+                <span class="name">Tampa Bay</span>
+                <span class="pct">.417</span>
+                <span class="road">44-99</span>
+                <span class="home">24-57</span>
+                <span class="rec">15-84</span> 
+            </div>
+            <div class="textContainer four blank">
+
+            </div>
+            <div class="textContainer five blank">
+                     
+            </div>
+            <div class="textContainer six blank">
+
+            </div>
+            <div class="textContainer seventh">
+                <span class="pos">-</span>
+                <span class="variance">34</span>
+                <span class="name">Toronto</span>
+                <span class="pct">.417</span>
+                <span class="road">44-99</span>
+                <span class="home">24-57</span>
+                <span class="rec">15-84</span> 
+            </div>          
+        </div>
+    </div>
+</div>
+</body>
+</html>

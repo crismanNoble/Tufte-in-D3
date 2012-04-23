@@ -1,0 +1,104 @@
+html, body{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 14px;
+        background: #f1f1f1;
+}
+
+#container {
+    margin-left: 8px;
+
+}
+
+.tableContainer {
+    margin-top: 8px;
+    position: relative;
+    float: left;
+    width: 436px;
+    height: 110px;
+}
+
+.first {
+    color: green;
+}
+
+.graph {
+    position: relative;
+    float: left;
+    width: 176px;
+    height: 110px;
+    background: #f2f2f2;
+}
+
+.stats {
+    float: left;
+    width: 260px;
+    padding-top: 5px;
+    height: 96px;
+}
+
+.textContainer {
+    width: 100%;
+    font-size: 14px;
+    line-height: 15px;
+    float: left;
+}
+
+span {
+    display: block;
+    float: left;
+}
+
+.pos {
+    margin-left: 4px;
+    width: 8px;
+
+}
+.variance {
+    width: 16px;
+
+    text-align: right;
+}
+
+.name {
+    margin-left: 4px;
+
+}
+
+.pct {
+    float: right;
+    width: 28px;
+
+    text-align: right;
+}
+
+.road {
+    float: right;
+    width: 36px;
+    margin-right: 4px;
+
+    text-align: right;
+}
+
+.home {
+    float: right;
+    margin-right: 4px;
+    width: 36px;
+
+    text-align: right;
+}
+.rec {
+    float: right;
+
+    text-align: right;
+    margin-right: 4px;
+}
+
+.blank {height: 15px;}
+
+.title {
+    position: absolute;
+    margin-top: 5px;
+    top: 0px;
+    left: 8px;
+}
+​
