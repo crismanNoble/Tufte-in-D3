@@ -9,6 +9,10 @@ html, body{
 
 }
 
+path {
+    stroke-width: 1.1;
+}
+
 .tableContainer {
     margin-top: 8px;
     position: relative;
@@ -18,7 +22,23 @@ html, body{
 }
 
 .first {
+    color: red;
+}
+
+.second {
+    color: black;
+}
+
+.third {
+    color: gold;
+}
+
+.fourth {
     color: green;
+}
+
+.fifth {
+    color: purple;
 }
 
 .graph {
@@ -98,6 +118,8 @@ span {
 .title {
     position: absolute;
     margin-top: 5px;
+    line-height: 15px;
+    font-size: 14px;
     top: 0px;
     left: 8px;
 }
