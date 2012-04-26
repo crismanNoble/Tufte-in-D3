@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-var colors = ['#CC0000','#000000', '#DF7401', '#088A29', '#8B008B', '#6495ED'];
+var colors = ['#CC0000','#000000', '#DF7401', '#228B22', '#8B008B', '#6495ED'];
 var w = 176; var h = 105;
 //DATA LIVES: https://docs.google.com/spreadsheet/ccc?key=0AhKa_IsEMANEdGJldjZoS1hubjAxZm5yVFBQdm1semc&pli=1#gid=10
 //need to change thickness of lines

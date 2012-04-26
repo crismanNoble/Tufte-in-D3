@@ -1,12 +1,37 @@
 html, body{
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     font-size: 14px;
-        background: #f1f1f1;
+    background: #f8f8f8;
+}
+
+h1 {
+    display: inline;
+    font-size: 16px; 
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    font-style: italic;
+}
+.about {
+    font-size: 10px;
+    float:right;
+}
+.creddit {
+    font-size: 10px;
 }
 
 #container {
-    margin-left: 8px;
-
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    width: 455px;
 }
 
 path {
@@ -14,7 +39,8 @@ path {
 }
 
 .tableContainer {
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     position: relative;
     float: left;
     width: 455px;
@@ -34,7 +60,7 @@ path {
 }
 
 .fourth {
-    color: #088A29; /*green*/
+    color: #228B22; /*green*/
 }
 
 .fifth {
@@ -50,14 +76,11 @@ path {
     float: left;
     width: 176px;
     height: 105px;
-    background: #f2f2f2;
 }
 
 .stats {
     float: left;
-    width: 277px;
-
-    
+    width: 277px;  
 }
 
 .textContainer {
@@ -115,7 +138,6 @@ span {
 
 .title {
     position: absolute;
-
     line-height: 15px;
     font-size: 14px;
     top: 0px;
