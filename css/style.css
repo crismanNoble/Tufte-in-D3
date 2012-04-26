@@ -14,46 +14,50 @@ path {
 }
 
 .tableContainer {
-    margin-top: 8px;
+    margin-top: 15px;
     position: relative;
     float: left;
-    width: 436px;
+    width: 455px;
     height: 110px;
 }
 
 .first {
-    color: red;
+    color: #CC0000; /*red*/
 }
 
 .second {
-    color: black;
+    color: #000000; /*black*/
 }
 
 .third {
-    color: gold;
+    color: #DF7401; /*gold*/
 }
 
 .fourth {
-    color: green;
+    color: #088A29; /*green*/
 }
 
 .fifth {
-    color: purple;
+    color: #8B008B; /*purple*/
+}
+
+.sixth {
+    color: #6495ED; /*cornflower blue*/
 }
 
 .graph {
     position: relative;
     float: left;
     width: 176px;
-    height: 110px;
+    height: 105px;
     background: #f2f2f2;
 }
 
 .stats {
     float: left;
-    width: 260px;
-    padding-top: 5px;
-    height: 96px;
+    width: 277px;
+
+    
 }
 
 .textContainer {
@@ -87,37 +91,31 @@ span {
 .pct {
     float: right;
     width: 28px;
-
     text-align: right;
 }
 
 .road {
     float: right;
-    width: 36px;
-    margin-right: 4px;
-
+    margin-right: 5px;
     text-align: right;
 }
 
 .home {
     float: right;
-    margin-right: 4px;
-    width: 36px;
-
+    margin-right: 5px;
     text-align: right;
 }
 .rec {
     float: right;
-
     text-align: right;
-    margin-right: 4px;
+    margin-right: 5px;
 }
 
 .blank {height: 15px;}
 
 .title {
     position: absolute;
-    margin-top: 5px;
+
     line-height: 15px;
     font-size: 14px;
     top: 0px;
