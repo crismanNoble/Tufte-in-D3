@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+	<title>2004 MLB Baseball Season</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+	<script src="https://raw.github.com/shutterstock/rickshaw/master/vendor/d3.min.js"></script>
+	<script src="https://raw.github.com/shutterstock/rickshaw/master/vendor/d3.layout.min.js"></script>
+	<script src="https://raw.github.com/shutterstock/rickshaw/master/rickshaw.min.js"></script>
+
+	<script src="js/custom.js"></script>
+    
+	<link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+	<link rel="stylesheet" href="http://code.shutterstock.com/rickshaw/rickshaw.min.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+
+<div id="container">
+    <h1>2004 Major League Baseball Season</h1><a class="about" href="#">about</a>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">American East</div>
+            <div class="graphic" id="ALE"></div>
+        </div>
+        <div class="stats">
+            <div class="textContainer one first">
+                <span class="pos">+</span>
+                <span class="variance">40</span>
+                <span class="name">NY Yankees</span>
+                <span class="pct">.613</span>
+                <span class="road">44-37</span>
+                <span class="home">57-24</span>
+                <span class="rec">101-24</span>
+            </div>
+            <div class="textContainer two second">
+                <span class="pos">+</span><span class="variance">34</span><span class="name">Boston</span><span class="pct">.605</span><span class="road">43-38</span><span class="home">55-26</span><span class="rec">98-64</span>
+            </div>
+            <div class="textContainer three blank"></div>
+            <div class="textContainer four blank"></div>
+            <div class="textContainer five third">
+                <span class="pos">-</span><span class="variance">6</span><span class="name">Baltimore</span><span class="pct">.481</span><span class="road">40-41</span><span class="home">38-43</span><span class="rec">78-84</span>
+            </div>
+            <div class="textContainer six fourth">
+                <span class="pos">-</span><span class="variance">22</span><span class="name">Tampa Bay</span><span class="pct">.435</span><span class="road">29-52</span><span class="home">41-39</span><span class="rec">70-91</span>
+            </div>
+            <div class="textContainer seven fifth">
+                <span class="pos">-</span><span class="variance">27</span><span class="name">Toronto</span><span class="pct">.416</span><span class="road">27-53</span><span class="home">40-41</span><span class="rec">67-94</span>
+            </div>          
+        </div>
+    </div>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">American Central</div>
+            <div class="graphic" id="ALC"></div>
+        </div>
+        <div class="stats">
+            <div class="textContainer one first">
+                <span class="pos">+</span><span class="variance">23</span><span class="name">Minnesota</span><span class="pct">.565</span><span class="road">43-38</span><span class="home">48-32</span><span class="rec">91-70</span>
+            </div>
+            <div class="textContainer two second">
+                <span class="pos">+</span><span class="variance">4</span><span class="name">Chicago Sox</span><span class="pct">.512</span><span class="road">37-44</span><span class="home">46-35</span><span class="rec">83-79</span>
+            </div>
+            <div class="textContainer three third">
+                <span class="pos">-</span><span class="variance">3</span><span class="name">Cleveland</span><span class="pct">.494</span><span class="road">36-45</span><span class="home">44-37</span><span class="rec">80-82</span>
+            </div>
+            <div class="textContainer four blank">
+            </div>
+            <div class="textContainer five fourth">
+                <span class="pos">-</span>
+                <span class="variance">18</span>
+                <span class="name">Detroit</span>
+                <span class="pct">.444</span>
+                <span class="road">34-47</span>
+                <span class="home">38-43</span>
+                <span class="rec">72-90</span>
+            </div>
+            <div class="textContainer six blank">
+
+            </div>
+            <div class="textContainer seven fifth">
+                <span class="pos">-</span><span class="variance">46</span><span class="name">Kansas City</span><span class="pct">.358</span><span class="road">25-57</span><span class="home">33-47</span><span class="rec">58-104</span>
+            </div>          
+        </div>
+    </div>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">American West</div>
+            <div class="graphic" id="ALW"></div>   
+        </div>
+        <div class="stats">
+            <div class="textContainer one first">
+                <span class="pos">+</span>
+                <span class="variance">22</span>
+                <span class="name">LA Angels</span>
+                <span class="pct">.568</span>
+                <span class="road">47-34</span>
+                <span class="home">45-36</span>
+                <span class="rec">92-70</span>
+            </div>
+            <div class="textContainer two second">
+                <span class="pos">+</span>
+                <span class="variance">20</span>
+                <span class="name">Oakland</span>
+                <span class="pct">.562</span>
+                <span class="road">39-42</span>
+                <span class="home">52-29</span>
+                <span class="rec">91-71</span>
+            </div>
+            <div class="textContainer three fifth">
+                <span class="pos">+</span>
+                <span class="variance">16</span>
+                <span class="name">Texas</span>
+                <span class="pct">.549</span>
+                <span class="road">38-43</span>
+                <span class="home">51-30</span>
+                <span class="rec">89-73</span>
+            </div>
+            <div class="textContainer four blank">
+            </div>
+            <div class="textContainer five blank">              
+            </div>
+            <div class="textContainer six blank">
+            </div>
+            <div class="textContainer seventh fourth">
+                <span class="pos">-</span>
+                <span class="variance">36</span>
+                <span class="name">Seattle</span>
+                <span class="pct">.389</span>
+                <span class="road">25-55</span>
+                <span class="home">38-44</span>
+                <span class="rec">63-99</span>
+            </div>          
+        </div>
+    </div>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">National East</div>
+            <div class="graphic" id="NLE"></div>
+        </div>
+        <div class="stats">
+            <div class="textContainer one first">
+                <span class="pos">+</span>
+                <span class="variance">30</span>
+                <span class="name">Atlanta</span>
+                <span class="pct">.593</span>
+                <span class="road">47-34</span>
+                <span class="home">49-32</span>
+                <span class="rec">96-66</span>
+            </div>
+            <div class="textContainer two blank"></div>
+            <div class="textContainer three second">
+                <span class="pos">+</span>
+                <span class="variance">10</span>
+                <span class="name">Philadelphia</span>
+                <span class="pct">.531</span>
+                <span class="road">44-37</span>
+                <span class="home">42-39</span>
+                <span class="rec">86-76</span>
+            </div>
+            <div class="textContainer four third">
+                <span class="pos">+</span>
+                <span class="variance">4</span>
+                <span class="name">Florida</span>
+                <span class="pct">.512</span>
+                <span class="road">41-41</span>
+                <span class="home">42-38</span>
+                <span class="rec">83-79</span>
+            </div>
+            <div class="textContainer five blank">
+            </div>
+            <div class="textContainer six fourth">
+                <span class="pos">-</span>
+                <span class="variance">20</span>
+                <span class="name">NY Mets</span>
+                <span class="pct">.438</span>
+                <span class="road">33-48</span>
+                <span class="home">38-43</span>
+                <span class="rec">71-91</span>
+            </div>
+            <div class="textContainer seventh fifth">
+                <span class="pos">-</span>
+                <span class="variance">28</span>
+                <span class="name">Washington</span>
+                <span class="pct">.414</span>
+                <span class="road">32-50</span>
+                <span class="home">35-45</span>
+                <span class="rec">67-95</span>
+            </div>          
+        </div>
+    </div>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">National Cenral</div>
+            <div class="graphic" id="NLC"></div>
+        </div>
+        <div class="stats">
+            <div class="textContainer one first">
+                <span class="pos">+</span><span class="variance">48</span><span class="name">St. Louis</span><span class="pct">.648</span><span class="road">52-29</span><span class="home">53-28</span><span class="rec">105-57</span>
+            </div>
+            <div class="textContainer two blank"></div>
+            <div class="textContainer three second">
+                <span class="pos">+</span><span class="variance">22</span><span class="name">Houston</span><span class="pct">.567</span><span class="road">44-37</span><span class="home">48-33</span><span class="rec">92-70</span>
+            </div>
+            <div class="textContainer four sixth">
+                <span class="pos">+</span><span class="variance">16</span><span class="name">Chicago Cubs</span><span class="pct">.549</span><span class="road">44-36</span><span class="home">45-37</span><span class="rec">89-73</span>
+            </div>
+            <div class="textContainer five fourth">
+                <span class="pos">-</span><span class="variance">10</span><span class="name">Cincinnati</span><span class="pct">.469</span><span class="road">36-45</span><span class="home">40-41</span><span class="rec">76-86</span>
+            </div>
+            <div class="textContainer six fifth">
+                <span class="pos">-</span><span class="variance">17</span><span class="name">Pittsburgh</span><span class="pct">.447</span><span class="road">33-48</span><span class="home">39-41</span><span class="rec">72-89</span>
+            </div>
+            <div class="textContainer seventh third">
+                <span class="pos">-</span><span class="variance">27</span><span class="name">Milwaukee</span><span class="pct">.416</span><span class="road">31-49</span><span class="home">36-45</span><span class="rec">67-94</span>
+            </div>          
+        </div>
+    </div>
+    <div class="tableContainer">
+        <div class="graph">
+            <div class="title">National West</div>
+            <div class="graphic" id="NLW"></div>
+        </div>
+        <div class="stats">
+            <div class="textContainer one first">
+                <span class="pos">+</span><span class="variance">24</span><span class="name">LA Dodgers</span><span class="pct">.574</span><span class="road">44-37</span><span class="home">49-32</span><span class="rec">93-69</span>
+            </div>
+            <div class="textContainer two second">
+                <span class="pos">+</span><span class="variance">20</span><span class="name">San Francisco</span><span class="pct">.562</span><span class="road">44-36</span><span class="home">47-35</span><span class="rec">91-71</span>
+            </div>
+            <div class="textContainer three third">
+                <span class="pos">+</span><span class="variance">12</span><span class="name">San Diego</span><span class="pct">.537</span><span class="road">45-36</span><span class="home">42-39</span><span class="rec">87-75</span>
+            </div>
+            <div class="textContainer four blank">   
+            </div>
+            <div class="textContainer five fifth">
+                <span class="pos">-</span><span class="variance">26</span><span class="name">Colorado</span><span class="pct">0.42</span><span class="road">30-51</span><span class="home">38-43</span><span class="rec">68-94</span>
+            </div>
+            <div class="textContainer six blank">
+            </div>
+            <div class="textContainer seventh fourth">
+                <span class="pos">-</span><span class="variance">60</span><span class="name">Arizona</span><span class="pct">.315</span><span class="road">22-59</span><span class="home">29-52</span><span class="rec">51-111</span>
+            </div>          
+        </div>
+    </div>
+    <div class="creddit"><br/>
+        A re-creation of the graphs found on page 174 of <a href="http://www.edwardtufte.com/tufte/books_vdqi" target="_blank">Edward Tufte's "The Visual Display of Quantitative Information, Second Edition"</a> using <a href="http://mbostock.github.com/d3/" target="_blank">D3</a> (with help from <a href="http://code.shutterstock.com/rickshaw/" target="_blank">Rickshaw</a>)
+        <br/><br/><a href="http://crisnoble.com" target="_blank">crisnoble</a> x <a href="http://mksht.crisnoble.com" target="_blank">MKSHT</a> speed project
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+html, body{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 14px;
+    background: #f8f8f8;
+}
+
+h1 {
+    display: inline;
+    font-size: 16px; 
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    font-style: italic;
+}
+.about {
+    font-size: 10px;
+    float:right;
+}
+.creddit {
+    font-size: 10px;
+}
+
+#container {
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    width: 455px;
+}
+
+path {
+    stroke-width: 1.1;
+}
+
+.tableContainer {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    float: left;
+    width: 455px;
+    height: 110px;
+}
+
+.first {
+    color: #CC0000; /*red*/
+}
+
+.second {
+    color: #000000; /*black*/
+}
+
+.third {
+    color: #DF7401; /*gold*/
+}
+
+.fourth {
+    color: #228B22; /*green*/
+}
+
+.fifth {
+    color: #8B008B; /*purple*/
+}
+
+.sixth {
+    color: #6495ED; /*cornflower blue*/
+}
+
+.graph {
+    position: relative;
+    float: left;
+    width: 176px;
+    height: 105px;
+}
+
+.stats {
+    float: left;
+    width: 277px;  
+}
+
+.textContainer {
+    width: 100%;
+    font-size: 14px;
+    line-height: 15px;
+    float: left;
+}
+
+span {
+    display: block;
+    float: left;
+}
+
+.pos {
+    margin-left: 4px;
+    width: 8px;
+
+}
+.variance {
+    width: 16px;
+
+    text-align: right;
+}
+
+.name {
+    margin-left: 4px;
+
+}
+
+.pct {
+    float: right;
+    width: 28px;
+    text-align: right;
+}
+
+.road {
+    float: right;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.home {
+    float: right;
+    margin-right: 5px;
+    text-align: right;
+}
+.rec {
+    float: right;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.blank {height: 15px;}
+
+.title {
+    position: absolute;
+    line-height: 15px;
+    font-size: 14px;
+    top: 0px;
+    left: 8px;
+}
+​
